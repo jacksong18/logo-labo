@@ -1,0 +1,210 @@
+body{
+    margin: 0px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.plan-list ul{
+    padding: 0px;
+    margin: 0px;
+}
+.plan-list ul li{
+    width: 33%;
+    height: 60px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #fff;
+    background: #03c1ea;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: left;
+    cursor: pointer;
+}
+.plan-list-selected{
+    background: #6291B7 !important;
+    font-weight: 800;
+}
+.tb{
+    display: table;
+    box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    width: 99%;
+    color: #000;
+}
+.tr{
+    display: table-row;
+    border: 1px solid #999999;
+}
+.td{
+    display: table-cell;
+    padding: 10px 5px;
+    text-align: center;
+    background: #fff;
+    cursor: default;
+    border: 1px solid #f8f6ff;
+}
+.td-name{
+    font-weight: 800;
+    background-color: #f8f6ff !important;
+}
+.td ul{
+    margin: 0;
+    padding: 0;
+}
+.td ul li{
+    list-style-type: circle;
+    list-style-position:inside;
+    margin: 0px 0px 6px 0px;
+    text-align: left;
+    width: 260px;
+}
+.nav{
+    width: 100%;
+}
+.nav2{
+    z-index: 99;
+    background-color: #fff;
+    position: fixed;
+    top: 60px;
+    padding-right: 0px;
+    height: 60px;
+    width: 100%;
+}
+.tab2{
+    height: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    list-style:none;
+    float: left;
+    display: inline;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+}
+.tab2-selected{
+    font-weight: 800;
+    background: rgb(105, 105, 105);
+}
+.tab-case{
+    width: 15%;
+}
+.tab-flow{
+    width: 25%;
+}
+.tab-price{
+    width: 30%;
+}
+.tab-ask{
+    width: 30%;
+}
+.tab-selected{
+    color: #fff;
+}
+.nav2 ul{
+    padding: 0px;
+    margin: 0px;
+}
+.content{
+    padding: 20px 20px 60px 20px;
+    top: 60px;
+}
+.card-inner{
+    width: 100%;
+    margin: 0 30px 30px 0;
+}
+.card-inner img{
+    max-height: 185px;
+}
+.input-text,.input-textarea{
+    width: 100%;
+    padding: 3px 0;
+}
+#form_ask_content{
+    height: 220px;
+}
+#form_background{
+    height: 140px;
+}
+#form_request{
+    height: 220px;
+}
+.form-icon{
+    display: none !important;
+}
+.form-submit{
+    width: 100%;
+    -webkit-appearance: none;
+}
+.step-dot-line{
+    display: none;
+}
+.tip .tiptext {
+    display: none;
+}
+.pic-bg img{
+    margin-top: 60px;
+}
+.slogan{
+    width: auto;
+    font-weight: 600;
+    text-align: left;
+    padding: 0 10px 20px 10px;
+}
+.chat{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+}
+.chat-btn-open{
+    height: 40px;
+    line-height: 40px;
+    padding: 3px 0 3px 0;
+    width: 100%;
+    text-align: center;
+}
+.chat-btn-open-title{
+    width: 100%;
+    text-align: center;
+}
+.chat-box{
+    width: 100%;
+}
+.chat-title{
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.chat-btn-close{
+    font-size: 72px;
+    line-height: 30px;
+}
+.chat-content{
+    height: 446px;
+}
+.chat-bubble{
+    max-width: 80%;
+}
+.plan-select-box{
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    background-image: url(dropdown_arrow.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    color: #555;
+    font-size: inherit;
+    margin: 0px 0px 10px 0px;
+    overflow: hidden;
+    padding: 5px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}

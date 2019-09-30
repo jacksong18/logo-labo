@@ -1,0 +1,229 @@
+body{
+    margin: auto !important;
+    width: 1024px !important;
+    min-height: 100% !important;
+}
+.tb{
+    display: table;
+    box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    color: #000;
+}
+.tr{
+    display: table-row;
+    border: 1px solid #999999;
+}
+.th{
+    display: table-cell;
+    font-weight: 800;
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+    background: #03c1ea;
+    cursor: default;
+    font-size: 18px;
+}
+.th-column{
+    width: 290px;
+}
+.td{
+    display: table-cell;
+    padding: 10px 5px;
+    text-align: center;
+    background: #fff;
+    cursor: default;
+    border: 1px solid #f8f6ff;
+}
+.td-name{
+    font-weight: 800;
+    background-color: #f8f6ff !important;
+}
+.td ul{
+    margin: 0;
+    padding: 0;
+}
+.td ul li{
+    list-style-type: circle;
+    list-style-position:inside;
+    margin: 0px 0px 12px 0px;
+    width: 280px;
+    text-align: left;
+}
+.nav{
+    width: 1024px;
+}
+.tab:hover{
+    font-weight: 600;
+}
+.tab-selected{
+    color: #000;
+}
+.btn:hover{
+    background-color: #43a047;
+}
+.content{
+    padding: 20px;
+}
+.content-center-container-ask,.content-center-container-form,.content-center-container-flow{
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-center-container-ask,.content-center-container-form{
+    width: 626px;
+}
+.content-center-container-flow{
+    width: 410px;
+}
+.card-inner{
+    max-width: 400px; /*312px*/
+    margin-left: auto; 
+    margin-right: auto;
+    /* float: left; */
+}
+.card-inner img{
+    max-height: 200px; /*177*/
+}
+.input-text,.input-textarea,.input-submit{
+    width: 610px;
+    padding: 3px 7px;
+}
+#form_ask_content{
+    height: 220px;
+}
+#form_background{
+    height: 140px;
+}
+#form_request{
+    height: 220px;
+}
+.form-submit{
+    width: 626px;
+}
+.form-submit:hover{
+    background: #6291B7;
+}
+.step-card{
+    margin: 10px 0 20px 50px;
+}
+.step-dot-line{
+    position: relative;
+    display: block;
+    float: left;
+}
+.dot{
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #e8ecf0;
+    left: 3px;
+    background: #f6f8fa;
+    z-index: 3;
+    top: 5px;
+}
+.line{
+    position: absolute;
+    display: block;
+    height: 270px;
+    width: 2px;
+    background: #e8ecf0;
+    margin-left: 10px;
+    top: 5px;
+}
+.tip .tiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 12px 13px 12px 13px;
+    font-weight: 400;
+    font-size: 12px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.tip:hover .tiptext {
+    visibility: visible;
+}
+.radio-label{
+    cursor: pointer;
+    margin-right: 80px;
+}
+.pic-bg img{
+    margin: 0;
+}
+.slogan-placeholder{
+    height: 100px;
+}
+.slogan{
+    width: 100%;
+    min-height: 80px;
+    line-height: 80px;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+.chat{
+    float: right;
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.chat-btn-open{
+    height: 50px;
+    line-height: 50px;
+    padding: 10px 9px 0 9px;
+}
+.chat-btn-open:hover{
+    background-color: #43a047;
+}
+.chat-btn-open-title{
+    float: left;
+}
+.chat-box{
+    width: 348px;
+}
+.chat-title{
+    height: 20px;
+}
+.chat-btn-close{
+    font-size: 42px;
+    line-height: 14px;
+}
+.chat-content{
+    height: 480px;
+}
+.chat-btn-msg{
+    display: none !important;
+    width: 222px;
+    height: 30px;
+    padding: 0 10px 0 10px;
+}
+.chat-btn div{
+    width: 51px;
+    height: 34px;
+    cursor: pointer;
+    line-height: 34px;
+    text-align: center;
+    font-weight: 800;
+}
+.chat-btn-clear{
+    background-color: #e8e8e8;
+    color: #000;
+}
+.chat-btn-send{
+    display: none !important;
+    background-color: #00c853;
+    color: #fff;
+}
+.chat-bubble{
+    max-width: 210px;
+}
+.chat-option:hover{
+    background-color: #449a9e;
+}

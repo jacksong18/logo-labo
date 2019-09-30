@@ -1,0 +1,13 @@
+
+        <div class="fixed-header">
+            <div class="nav">
+                <ul>
+                    <li class="logo tab tab-home tab-selected" style="width: 180px;"><img src="logo.png"></li>
+                    <li class="tab tab-case">作品一覧</li>
+                    <li class="tab tab-flow">ご利用方法</li>
+                    <li class="tab tab-price">料金システム</li>
+                    <li class="tab tab-ask">お問い合わせ</li>
+                </ul>
+            </div>
+            <div class="start btn">ご利用開始</div>
+        </div>

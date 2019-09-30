@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ロゴラボ - 楽にロゴデザイン</title>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="common.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 481px)" href="pc.css" />
+    <link rel="stylesheet" href="sp_common.css" media="screen and (max-width: 480px)">
+    <link rel="stylesheet" href="sp.css" media="screen and (min-width: 375px) and (max-width: 480px)">
+    <link rel="stylesheet" href="ssp.css" media="screen and (max-width: 374px)">
+    <link rel="stylesheet" href="GoogleMaterialIcons.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <script src="jquery-1.12.4.js"></script>
+    <script src="main.js"></script>
+</head>
+<body class="no-overflow">
+        <div class="fixed-header">
+            <div class="nav">
+                <ul>
+                    <li class="logo tab tab-home tab-selected" style="width: 180px;"><img src="logo.png" alt='ロゴラボ'></li>
+                    <li class="tab tab-case">作品例</li>
+                    <li class="tab tab-flow">ご利用方法</li>
+                    <li class="tab tab-price">料金システム</li>
+                    <li class="tab tab-ask">お問い合わせ</li>
+                    <li class="start btn">無料提案申込</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content content-home">
+            <div class="slogans">
+                <div class="slogan-placeholder"></div>
+                <div class="slogan">スピード納品：最短１日！</div>
+                <div class="slogan">低コスト：５０００円から！</div>
+                <div class="slogan">高品質：お客様満足度１００％！</div>
+                <div class="slogan">デザイン案をご覧頂いてからのお支払い</div>
+                <div class="slogan">ご満足頂けるまで提案を何度でも修正可能です</div>
+            </div>
+            <div class="pic-bg"><img id='bg' src="" alt='ロゴデザイン'></div>
+        </div>
+        <div class="content content-case hidden">
+            <div class="card-inner">
+                <div class="card-logo">
+                    <img src="lsj.jpeg">
+                </div>
+                <div class="card-text-container">
+                    <h3>LSJ人狼ゲームショップ</h3>
+                    <p>
+                        ５０００円、２日間という低料金・短納期のサービスにご満足頂けたケースです。<br>
+                        人狼ゲームショップの開設を検討されていたお客様のニーズは、「店名“LSJ”が含まれ、且つ“人狼ゲーム”を表現できること」でした。<br>
+                        当サイトより狼の爪痕を組み合わせたデザイン案を提案させて頂き、お客様に合意頂けた後、ロゴの作成に着手。<br>
+                        最終的に、２日でお客様にご満足頂けるロゴを納品させて頂きました。<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="content content-flow hidden">
+            <div class="content-center-container-flow">
+                <div class="step step1">
+                    <div class="step-mark">STEP1</div>
+                    <div class="step-dot-line">
+                        <i class="dot"></i>
+                        <i class="line"></i>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-pic">
+                            <img src="receive.png">
+                        </div>
+                        お客様にデザインに関する「お問い合わせ」をお送り頂きます。
+                    </div>
+                    <div class="step-clear"></div>
+                </div>
+                <div class="step step2">
+                    <div class="step-mark">STEP2</div>
+                    <div class="step-dot-line">
+                        <i class="dot"></i>
+                        <i class="line"></i>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-pic">
+                            <img src="mail.png">
+                        </div>
+                        当サイトより24時間以内にご連絡し、お客様に依頼内容について確認させて頂きます。
+                    </div>
+                    <div class="step-clear"></div>
+                </div>
+                <div class="step step3">
+                    <div class="step-mark">STEP3</div>
+                    <div class="step-dot-line">
+                        <i class="dot"></i>
+                        <i class="line"></i>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-pic">
+                            <img src="logo_design.png">
+                        </div>
+                        当サイトより、デザイン案を提示させて頂きます。
+                    </div>
+                    <div class="step-clear"></div>
+                </div>
+                <div class="step step4">
+                    <div class="step-mark">STEP4</div>
+                    <div class="step-dot-line">
+                        <i class="dot"></i>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-pic">
+                            <img src="give.jpg">
+                        </div>
+                        お客様に満足頂けた後、最終的なデザインを納品させて頂きます。
+                    </div>
+                    <div class="step-clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content content-price hidden">
+            <div class="tb">
+                <div class="tr">
+                    <div class="th th-name">プラン名</div>
+                    <div class="th th-column">基本プラン</div>
+                    <div class="th th-column">標準プラン</div>
+                    <div class="th th-column">プレミアムプラン</div>
+                </div>
+                <div class="tr">
+                    <div class="td td-name">費用</div>
+                    <div class="td">5000円</div>
+                    <div class="td">8000円</div>
+                    <div class="td">15000円</div>
+                </div>
+                <div class="tr">
+                    <div class="td td-name">向けるお客様</div>
+                    <div class="td">部活・サークル・イベント等費用を抑えたい方向け</div>
+                    <div class="td">趣味・個人事業等個人のお客様向け</div>
+                    <div class="td">法人のお客様向け</div>
+                </div>
+                <div class="tr">
+                    <div class="td td-name">提供するサービス</div>
+                    <div class="td">
+                        <ul>
+                            <li>デザイン案をご覧頂いてからのお支払い</li>
+                            <li>ご満足頂けるまで提案を何度でも修正可能です</li>
+                            <li>ロゴのみ提供します</li>
+                            <li>成果物は当サイトの宣伝のため公開します</li>
+                        </ul>
+                    </div>
+                    <div class="td">
+                        <ul>
+                            <li>デザイン案をご覧頂いてからのお支払い</li>
+                            <li>ご満足頂けるまで提案を何度でも修正可能です</li>
+                            <li>ロゴおよび特定の場合に使用する時調整したロゴと背景を提供します</li>
+                            <li>お客様の承認いただかない限り成果物は公開しません</li>
+                        </ul>
+                    </div>
+                    <div class="td">
+                        <ul>
+                            <li>デザイン案をご覧頂いてからのお支払い</li>
+                            <li>ご満足頂けるまで提案を何度でも修正可能です</li>
+                            <li>ロゴおよびお客様の望む使用ケースに応じる調整したロゴと背景を提供します</li>
+                            <li>お客様の承認いただかない限り成果物は公開しません</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content content-ask hidden">
+            <div class="content-center-container-ask">
+                <div class="form-row">
+                    <label for="form_email_ask" class="form-label">Eメールアドレス</label><br>
+                    <input type="email" id="form_email_ask" class="input-text"><br>
+                    <div class='invalid-email-txt invisible'>有効なEメールアドレスではありません</div>
+                </div>
+                <div class="form-row">
+                    <label for="form_ask_content" class="form-label">
+                        お問い合わせ内容
+                    </label><br>
+                    <textarea id="form_ask_content" class="input-textarea"></textarea>
+                </div>
+                <div class="form-row">
+                    <input type="button" class="btn input-submit form-submit btn-send-question" value="問い合わせする">
+                </div>
+            </div>
+        </div>
+        <div class="content content-form hidden">
+            <div class="content-center-container-form">
+                <div class="form-row plan-select">
+                    <input type="radio" name="form_plan" value="basic" id="form_plan_basic">
+                    <label for="form_plan_basic" class="form-label radio-label tip">
+                        基本プラン
+                        <span class="tiptext">5000円(費用を抑えたい方向け)</span>
+                    </label>
+                    <input type="radio" name="form_plan" value="standard" id="form_plan_standard">
+                    <label for="form_plan_standard" class="form-label radio-label tip">
+                        標準プラン
+                        <span class="tiptext">8000円(個人のお客様向け)</span>
+                    </label>
+                    <input type="radio" name="form_plan" value="premium" id="form_plan_premium">
+                    <label for="form_plan_premium" class="form-label radio-label tip">
+                        プレミアムプラン
+                        <span class="tiptext">15000円(法人のお客様向け)</span>
+                    </label>
+                </div>
+                <div class="form-row">
+                    <label for="form_email" class="form-label">Eメールアドレス</label><br>
+                    <input type="email" id="form_email" class="input-text"><br>
+                    <div class='invalid-email-txt invisible'>有効なEメールアドレスではありません</div>
+                </div>
+                <div class="form-row">
+                    <label for="form_background" class="form-label tip">
+                        デザイン目的
+                        <i class="fa fa-question-circle form-icon"></i>
+                        <span class="tiptext">例：人狼ゲームショップのロゴ設計</span>
+                    </label><br>
+                    <textarea id="form_background" class="input-textarea"></textarea><br>
+                </div>
+                <div class="form-row">
+                    <label for="form_request" class="form-label tip">
+                        デザインに対する要求
+                        <i class="fa fa-question-circle form-icon"></i>
+                        <span class="tiptext">例：１．店名LSJを含めること。<br>２．人狼ゲームを表現できること。</span>
+                    </label><br>
+                    <textarea id="form_request" class="input-textarea"></textarea><br>
+                </div>
+                <div class="form-row">
+                    <label for="form_upload_pic" class="form-label">説明画像</label><br>
+                    <input type="file" id="form_upload_pic" name="pic" class="" accept="image/*"><br>
+                </div>
+                <div class="form-row">
+                    <input type="button" class="btn input-submit form-submit btn-send-request" value="提出">
+                </div>
+            </div>
+        </div>
+        <div class="chat">
+            <div class="chat-btn-open">
+                <div class="chat-btn-open-title">お問い合わせボット</div>
+            </div>
+            <div class="chat-box hidden">
+                <div class="chat-title">
+                    お問い合わせボット
+                    <div class="chat-btn-close">-</div>
+                </div>
+                <div class="chat-content">
+                </div>
+                <div class="chat-btn">
+                    <input type="text" class="chat-btn-msg" placeholder="ご質問を入力してください">
+                    <div class="chat-btn-clear">クリア</div>
+                    <div class="chat-btn-send">送信</div>
+                </div>
+            </div>
+        </div>
+        <div class="popup">送信しました</div>
+        <div class="lds-default hidden"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</body>
+</html>

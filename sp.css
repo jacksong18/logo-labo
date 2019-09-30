@@ -1,0 +1,11 @@
+.step-card{
+    margin: 10px 0 20px 50px;
+}
+.slogan-placeholder{
+    height: 100px;
+}
+.slogan{
+    min-height: 42px;
+    line-height: 42px;
+    font-size: 22px;
+}

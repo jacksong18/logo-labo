@@ -1,0 +1,17 @@
+.tab2{
+    font-size: 14px;
+}
+.step-card{
+    margin: 0px 0px 0px 0px;
+}
+.slogan-placeholder{
+    height: 80px;
+}
+.slogan{
+    min-height: 38px;
+    line-height: 38px;
+    font-size: 20px;
+}
+.td ul li{
+    width: 220px !important;
+}
